@@ -1,13 +1,19 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to genephys' documentation
+==================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**genephys** is a Python tool to simulate electrophysiological data during a psychometric 
+experiment, where for instance two stimuli are presented to a subject while
+EEG or MEG data is recorded. The toolbox generates data both during baseline 
+and after stimulation, continuously or in trials.
+The data can be analysed using decoding analysis, and the results 
+compared to decoding results from real data . 
+To help with that, the package also provides basic decoding tools.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+The generative model is described in `this paper <http://biorxiv.com>`_,
+and a Jupyter notebook reproducing the main results is also available 
+`here <https://github.com/vidaurre/genephys/tree/main/examples/jupyter_notebooks>`_.
+
+Check :doc:`usage` section for further information.
 
 .. note::
 
