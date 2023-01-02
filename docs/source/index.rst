@@ -24,5 +24,9 @@ Contents
 
 .. toctree::
 
-   usage
+   install
+   rest
+   task
+   decoding
+   graphics
    api
